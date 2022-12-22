@@ -6,7 +6,6 @@ jobs:
   triage:
     permissions:
       contents: read
-      pull-requests: read
     runs-on: ubuntu-latest
     steps:
     - id: hello
