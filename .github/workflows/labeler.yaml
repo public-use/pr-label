@@ -8,10 +8,11 @@ jobs:
   triage:
     permissions:
       pull-requests: write
+      
     runs-on: ubuntu-latest
     steps:
     - id: hello
-      uses: AnuragThePathak/labeler@v1.1.0
+      uses: actions/labeler@v4
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: .github/labeler.yaml
