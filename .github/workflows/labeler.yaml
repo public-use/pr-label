@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: hello
-      uses: AnuragThePathak/labeler@v1.1.0
+      uses: AnuragThePathak/labeler@v1.2.0
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: .github/labeler.yaml
