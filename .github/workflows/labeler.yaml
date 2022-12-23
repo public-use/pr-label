@@ -1,6 +1,6 @@
 name: "Pull Request Labeler"
 on:
-  pull_request_target:
+  pull_request:
     types:
       - opened
 
@@ -16,7 +16,7 @@ jobs:
       discussions: none
       packages: none
       pages: none
-      pull-requests: read
+      pull-requests: write
       repository-projects: none
       security-events: none
       statuses: none
