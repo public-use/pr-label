@@ -16,7 +16,7 @@ jobs:
       discussions: none
       packages: none
       pages: none
-      pull-requests: write
+      pull-requests: read
       repository-projects: none
       security-events: none
       statuses: none
